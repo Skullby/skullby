@@ -1,20 +1,25 @@
-import './styles/App.css';
-import'./styles/NavBar.css';
+import './App.css';
+import './components/global/NavBar/NavBar.css';
 
-import Footer from './components/global/Footer';
-import NavBar from './components/global/NavBar';
+import Footer from './components/global/Footer/Footer';
+import NavBar from './components/global/NavBar/NavBar';
+import ItemListContainer from './components/global/ItemListContainer/ItemListContainer';
 
 function App() {
   const cartelSaludo = () => {
     alert('Hola mundo');
   }
-  const logo = () => {
-    <img src="%PUBLIC_URL%/skullby-logo.jpg" alt=""/>
-  }
+  
+  
   return (
     <>
      <NavBar titulo="Skullby" action={cartelSaludo}/>
      
+     <a href="#itemlist" className="itemlist">Abrir lista de Items</a>
+     <ItemListContainer>
+       <p>Aca estan los Items</p>
+     </ItemListContainer>
+    
      <Footer/>
      
     </>
