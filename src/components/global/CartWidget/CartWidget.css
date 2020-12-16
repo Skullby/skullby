@@ -1,9 +1,25 @@
-.cart {
-    text-decoration: none;
-    color: black;
-    position: relative;
-    left: 82rem;
-    top: -2rem;
-    background: none;
-   
+.cartWidget {
+    height: 100vh;
+    width: 20%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background:white;
+    z-index: 2;
+    box-shadow: -0.3rem 0 0.3rem rgba(0, 0, 0, 0.2);
+  }
+  
+  
+
+  .close {
+    display: none;
+  }
+  
+  .open {
+    display: block;
+  }
+
+.button {
+    cursor: pointer;
+    
 }

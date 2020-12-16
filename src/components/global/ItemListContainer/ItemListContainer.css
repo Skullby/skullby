@@ -1,39 +1,8 @@
-.overlay {
-  background: rgba(0, 0, 0, 0.5);
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100vh;
-  display: none;
-  justify-content: center;
-  align-items: center;
+.overlay{
+  background-color: yellow;
 }
 
-#itemlist:target {
-  display: flex;
+.itemlist{
+  font-size: large;
+  list-style-type: circle;
 }
-
-.itemlist {
-  background: white;
-  padding: 20px;
-  border-radius: 20px;
-  position: relative;
-}
-
-.cerrar{
-  text-decoration: none;
-  color: black;
-  position: relative;
-  left: 135px;
-  top: auto;
-  font-size: small;
-}
-
-.itemlist .cerrar {
-  position: relative;
-  right: 20px;
-  top: auto;
-  font-size: 1rem;
-}
-

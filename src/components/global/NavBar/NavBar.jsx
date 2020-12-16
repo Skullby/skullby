@@ -1,19 +1,17 @@
-import { logDOM } from "@testing-library/react";
-import logo from "./logo.svg"
-import CartWidget from "../CartWidget/CartWidget";
 
+import logo from "./logo.svg";
+import Cart from "../Cart/Cart";
+import './NavBar.css';
 
-function NavBar({titulo , action}) {
+function NavBar({titulo, action}) {
     // const {titulo} = props;
-    const carrito = () => {
-        alert('Carrito de compras');
-      }
+   
     return(
         <>
-
+        
         <header>
-       
-        <CartWidget widget={carrito}/>
+        
+        <Cart action={action}/>
        
         
         <div className="container">
@@ -23,19 +21,19 @@ function NavBar({titulo , action}) {
         <nav>
             <ul>
                 <li>
-                    <a href="#" onClick={action}>Teclados</a>
+                    <a href="">Teclados</a>
                 </li>
                 <li>
-                    <a href="#" onClick={action}>Mouses</a>
+                    <a href="">Mouses</a>
                 </li>
                 <li>
-                    <a href="#" onClick={action}>Monitores</a>
+                    <a href="">Monitores</a>
                 </li>
                 <li>
-                    <a href="#" onClick={action}>Placas de video</a>
+                    <a href="">Placas de video</a>
                 </li>
                 <li>
-                    <a href="#" onClick={action}>CPUs</a>
+                    <a href="">CPUs</a>
                 </li>
             </ul>
         </nav>
