@@ -1,8 +1,8 @@
 import './App.css';
 import NavAndWidgetCart from '../global/NavAndWidgetCart/NavAndWidgetCart';
 import FeaturedProducts from '../home/FeaturedProducts';
+import ItemList from '../global/ItemList/ItemList';
 //import {useState} from 'react';
-
 function App() {
   //const [message, setMessage] = useState('');
 
@@ -26,7 +26,8 @@ function App() {
 
      <NavAndWidgetCart/>
      <FeaturedProducts/>
-    
+     <ItemList/>
+
     </>
   );
 }

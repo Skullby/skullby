@@ -1,14 +1,12 @@
 import './ItemListContainer.css';
-import {AiFillCloseCircle} from 'react-icons/ai';
-
-const ItemListContainer = ({children}) => {
+import ItemList from "../ItemList/ItemList";
+function ItemListContainer() {
     return (
-        <div className="overlay" id="itemlist">
-            <div className="itemlist">
-               
+        <div className="overlay">
+            
+         <ItemList/>
+                
 
-                {children}
-            </div>
         </div>
     )
 }
