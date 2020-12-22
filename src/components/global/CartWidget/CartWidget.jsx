@@ -10,7 +10,6 @@ const CartWidget = ({show, action}) => {
 
             <AiFillCloseCircle className="button" onClick={action}/>
             
-                
 
         </div>
         </>

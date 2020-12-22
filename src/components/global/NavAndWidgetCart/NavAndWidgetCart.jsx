@@ -10,7 +10,8 @@ const NavAndWidgetCart = () => {
     }
 
     return (
-        <>  <NavBar titulo="Skullby" action={openWidgetCart}/>
+        <>  
+            <NavBar titulo="Skullby" action={openWidgetCart}/>
             <CartWidget show={showWidgetCart} action={openWidgetCart} />
         </>
     )

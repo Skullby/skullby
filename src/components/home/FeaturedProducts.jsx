@@ -1,11 +1,12 @@
 import ProductCard from '../global/ProductCard/ProductCard';
 import './FeaturedProducts.css';
+import {useState, useEffect} from 'react';
 
 
 const FeaturedProducts = () => {
     return(
         <section className="featuredProducts">
-            <div className="container">
+            <div>
                 <h2>Productos Destacados</h2>
                 <ul>
                     <li><ProductCard titulo="Producto 1" precio="500" stock="5" /></li>

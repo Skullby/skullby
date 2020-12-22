@@ -13,7 +13,7 @@ function NavBar({titulo, action}) {
         
         <Cart action={action}/>
        
-        
+       
         <div className="container">
         <img src={logo}   alt='logo'/>
         <h1 >{titulo}</h1>

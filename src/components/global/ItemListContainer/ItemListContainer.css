@@ -1,5 +1,13 @@
 .overlay{
-  background-color: yellow;
+  margin-bottom: 20px;
+  width: 200px;
+  border: 2px black solid;
+  background-color: #ffff00;
+}
+
+h2 {
+  font-size: 3rem;
+
 }
 
 
